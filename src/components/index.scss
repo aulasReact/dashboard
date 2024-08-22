@@ -1,0 +1,32 @@
+.content {
+    display: flex;
+    width: 80px;
+    padding: 10px;
+    background-color: #FFFFFF;
+
+    justify-content: center;
+    border-radius: 10px;
+
+}
+
+.teste {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.menu-lateral {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+
+
+}
+
+.menu_perfil {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}

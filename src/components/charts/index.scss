@@ -1,0 +1,45 @@
+.report {
+    font-size: 22px;
+    padding: 5px;
+
+}
+
+.div-analitico-sales {
+
+    background-color: #5B93FF;
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+}
+
+.div-analitico-distribute {
+
+    background-color: #FFD66B;
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+}
+
+.div-analitico-return {
+
+    background-color: #FF8F6B;
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+}
+
+.div-analitico-principal {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.div-main-analitico {
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+
+}
