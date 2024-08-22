@@ -11,6 +11,7 @@ import 'dayjs/locale/pt-br';
 import Roport from '../charts/report';
 import Analytics from '../charts/analytics';
 import Recentordens from '../recentOrders/recentorders';
+import { Divider } from '@mui/material';
 
 
 function Dashboard() {
@@ -99,7 +100,29 @@ function Dashboard() {
                         <Recentordens />
                     </div>
                     <div style={{ background: "#FFF", marginTop: '10px', borderRadius: '10px' }}>
-                        <Recentordens />
+                        <div style={{ width: '447px', background: "#FFF", height: '100%', marginTop: '10px', borderRadius: '10px' }}>
+                            <div style={{ display: 'flex', width: '100%', justifyContent: 'space-between', margin: '10px' }}>
+                                <h1 style={{ fontSize: '18px' }}>Top selling Products</h1>
+                                <img src="../images/3ponto.svg" />
+                            </div>
+                            <div className='top-selleing'>
+                                <img src="../images/tenis.svg" alt="" />
+                                <div className='top-selleing-detalhes'>
+                                    <p>NIKE Shoes Black Pattern</p>
+                                    <img src="../images/estrelas.svg" alt="" />
+                                    <h2>$87</h2>
+                                </div>
+                            </div>
+                            <Divider />
+                            <div className='top-selleing'>
+                                <img src="../images/iphone.svg" alt="" />
+                                <div className='top-selleing-detalhes'>
+                                    <p>Iphone 12</p>
+                                    <img src="../images/estrelas.svg" alt="" />
+                                    <h2>$987</h2>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
