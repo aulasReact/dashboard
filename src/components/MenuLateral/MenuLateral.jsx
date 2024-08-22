@@ -9,9 +9,9 @@ function MenuLateral() {
                 <div className='teste'>
                     <div className='menu-lateral'>
                         <img src='/images/logo.svg' />
-                        <a><GridView htmlColor='#777777' fontSize='medium' /></a>
+                        <a href='/'><GridView htmlColor='#777777' fontSize='medium' /></a>
                         <a><InsertChart htmlColor='#777777' fontSize='medium' /></a>
-                        <a><ConfirmationNumber htmlColor='#777777' fontSize='medium' /></a>
+                        <a href='/invoice-list'><ConfirmationNumber htmlColor='#777777' fontSize='medium' /></a>
                         <a><Article htmlColor='#777777' fontSize='medium' /></a>
                         <a><CalendarMonth htmlColor='#777777' fontSize='medium' /></a>
                         <a><Timeline htmlColor='#777777' fontSize='medium' /></a>

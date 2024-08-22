@@ -2,7 +2,7 @@ import React from 'react'
 import { LineChart } from '@mui/x-charts/LineChart';
 import "./index.scss"
 
-function Report() {
+function Roport() {
     return (
         <>
             <h1 className='report'>Reports</h1>
@@ -20,4 +20,4 @@ function Report() {
     )
 }
 
-export default Report
+export default Roport
