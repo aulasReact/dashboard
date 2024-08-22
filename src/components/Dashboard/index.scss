@@ -1,0 +1,144 @@
+.conteudo-maior {
+    // width: 100%;
+
+
+}
+
+.content-dashboard {
+    display: flex;
+    justify-content: space-between;
+    //width: 100%;
+    align-items: baseline;
+
+
+
+}
+
+.menu-data {
+    display: flex;
+    gap: 10px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px;
+
+
+
+}
+
+.menu-data1 {
+    // width: 200px;
+
+}
+
+.card {
+    //  width: 1196px;
+    //height: 116px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+.card1 {
+    background-color: #FFFFFF;
+    width: 276px;
+    height: 116px;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.card-icone-coracao {
+
+    // background-color: #5b92ff27;
+    width: 60px;
+    height: 60px;
+    border-radius: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5b92ff42;
+
+
+}
+
+.card-icone-controle {
+
+    background-color: #ffd56b54;
+    width: 60px;
+    height: 60px;
+    border-radius: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card-icone-bolsa {
+
+    background-color: #ff906b46;
+    width: 60px;
+    height: 60px;
+    border-radius: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card-icone-mala {
+
+    background: #615bff25;
+
+    width: 60px;
+    height: 60px;
+    border-radius: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card-icone img {
+    width: 24px;
+    height: 24px;
+    color: #5B93FF;
+
+}
+
+.card-h1 {
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 30.01px;
+    color: #000000;
+}
+
+.card-p {
+    font-size: 14px;
+    color: #030229;
+
+    font-weight: 400px;
+}
+
+.menu-reports {
+    display: flex;
+    gap: 10px;
+}
+
+.top-selleing {
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+
+
+}
+
+.top-selleing-detalhes {
+    padding: 10px;
+
+}
