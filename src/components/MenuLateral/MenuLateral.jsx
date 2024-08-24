@@ -12,7 +12,7 @@ function MenuLateral() {
                         <a href='/'><GridView htmlColor='#777777' fontSize='medium' /></a>
                         <a><InsertChart htmlColor='#777777' fontSize='medium' /></a>
                         <a href='/invoice-list'><ConfirmationNumber htmlColor='#777777' fontSize='medium' /></a>
-                        <a><Article htmlColor='#777777' fontSize='medium' /></a>
+                        <a href='/board-list'><Article htmlColor='#777777' fontSize='medium' /></a>
                         <a><CalendarMonth htmlColor='#777777' fontSize='medium' /></a>
                         <a><Timeline htmlColor='#777777' fontSize='medium' /></a>
                         <a><Notifications htmlColor='#777777' fontSize='medium' /></a>
