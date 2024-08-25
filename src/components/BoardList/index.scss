@@ -10,14 +10,14 @@
 .board-card{
     display: flex;
   justify-content: space-between;
-  border: 1px solid red;
+ 
   padding: 10px;
   border-radius: 30px;
  
 }
 
 .board-card-divs{
- border: 1px solid chartreuse;
+
  display: flex;
  flex-direction: column;
  gap: 10px;

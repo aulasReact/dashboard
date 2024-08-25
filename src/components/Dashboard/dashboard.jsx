@@ -92,16 +92,16 @@ function Dashboard() {
                     <div style={{ width: '447px', background: "#FFF", height: '408px', marginTop: '10px', borderRadius: '10px' }}>
                         <Analytics />
                     </div>
-                </div>
+                </div> 
 
 
-                <div className='menu-reports'>
-                    <div style={{ background: "#FFF", marginTop: '10px', borderRadius: '10px' }}>
+                <div className='menu-topsellers'>
+                   
                         <Recentordens />
-                    </div>
-                    <div style={{ background: "#FFF", marginTop: '10px', borderRadius: '10px' }}>
-                        <div style={{ width: '447px', background: "#FFF", height: '100%', marginTop: '10px', borderRadius: '10px' }}>
-                            <div style={{ display: 'flex', width: '100%', justifyContent: 'space-between', margin: '10px' }}>
+                  
+                    <div>
+                        <div className='top-seller' >
+                            <div>
                                 <h1 style={{ fontSize: '18px' }}>Top selling Products</h1>
                                 <img src="../images/3ponto.svg" />
                             </div>

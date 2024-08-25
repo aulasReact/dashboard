@@ -3,8 +3,8 @@ import "./index.scss";
 
 function Recentordens() {
     return (
-        <div>
-            <table className='tabela'>
+        <div style={{ width: '100%', background: "#FFF", height: '408px', marginTop: '10px', borderRadius: '10px' }}>
+            <table className='tabela' >
                 <thead>
                     <tr>
                         <th>Tracking no</th>
@@ -17,12 +17,18 @@ function Recentordens() {
                 <tbody>
                     <tr>
                         <td>#876364</td>
-                        <td className='td-img'>
-                            <img src="../images/produto-lente.svg" alt="Camera Lens" />
-                            Camera Lens
+                        <td>
+
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                                <img src="../images/produto-lente.svg" alt="Camera Lens" />
+                                <p>Camera Lens</p>
+                            </div>
+
+
+
                         </td>
                         <td>$178</td>
-                        <td className='td-icone'>
+                        <td >
                             <div className='icone-tabela'>
                                 325
                             </div>
@@ -31,12 +37,15 @@ function Recentordens() {
                     </tr>
                     <tr>
                         <td>#876368</td>
-                        <td className='td-img'>
-                            <img src="../images/produto-vestido.svg" alt="Black Sleep Dress" />
-                            Black Sleep Dress
+                        <td>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                                <img src="../images/produto-vestido.svg" alt="Black Sleep Dress" />
+                                <p>Black Sleep Dress</p>
+                            </div>
+
                         </td>
                         <td>$14</td>
-                        <td className='td-icone'>
+                        <td>
                             <div className='icone-tabela'>
                                 325
                             </div>
@@ -45,12 +54,18 @@ function Recentordens() {
                     </tr>
                     <tr>
                         <td>#876368</td>
-                        <td className='td-img'>
-                            <img src="../images/produto-oleo.svg" alt="Argan Oil" />
-                            Argan Oil
+                        <td >
+
+
+
+
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                                <img src="../images/produto-oleo.svg" alt="Argan Oil" />
+                                <p>  Argan Oil</p>
+                            </div>
                         </td>
                         <td>$21</td>
-                        <td className='td-icone'>
+                        <td >
                             <div className='icone-tabela'>
                                 78
                             </div>
@@ -59,12 +74,18 @@ function Recentordens() {
                     </tr>
                     <tr>
                         <td>#876368</td>
-                        <td className='td-img'>
-                            <img src="../images/produto-perfume.svg" alt="EAU DE Parfum" />
-                            EAU DE Parfum
+                        <td>
+
+
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                                <img src="../images/produto-perfume.svg" alt="EAU DE Parfum" />
+                                <p>     EAU DE Parfum</p>
+                            </div>
+
+
                         </td>
                         <td>$32</td>
-                        <td className='td-icone'>
+                        <td>
                             <div className='icone-tabela'>
                                 98
                             </div>
