@@ -3,11 +3,12 @@ import "./App.css"
 import { createBrowserRouter, RouterProvider, } from 'react-router-dom'
 import Home from './components/Home/Home';
 import InvoiceList from './components/InvoiceList/InvoiceList';
+import HomePage from './components/AtomicDesign/Templates/HomePage/HomePage';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <HomePage />,
   },
   {
     path: "/invoice-list",
